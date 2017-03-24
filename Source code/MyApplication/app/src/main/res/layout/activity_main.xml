@@ -10,17 +10,7 @@
     tools:context="com.example.euapp16.myapplication.MainActivity"
     android:theme="@style/appTheme">
 
-    <android.support.v7.widget.Toolbar
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="?attr/colorPrimary"
-        android:theme="?attr/actionBarTheme"
-        android:minHeight="?attr/actionBarSize"
-        android:id="@+id/toolbar3"
-        app:title="Brainstorm"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+
 
 
     <Button
@@ -48,7 +38,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="E-mail"
+        android:hint="Nickname"
         android:inputType="textEmailAddress"
         android:ems="10"
         android:id="@+id/editText"
@@ -70,14 +60,12 @@
         android:layout_marginTop="11dp" />
 
     <ImageView
-        android:layout_width="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_width="140dp"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/brainstorming"
-        android:id="@+id/imageView2"
-        android:layout_marginBottom="22dp"
-        android:layout_above="@+id/buttonLogin"
-        android:layout_centerHorizontal="true" />
-
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        app:srcCompat="@drawable/app16logo" />
 
 
 </RelativeLayout>
