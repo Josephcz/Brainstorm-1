@@ -39,7 +39,7 @@ public class IT_activity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intentMain = new Intent (getApplicationContext(), QnA_activity.class);
                 intentMain.putExtra("question", "How do you initialize a list in C#?");
-                intentMain.putExtra("answer", "Set X with value from Y.");
+                intentMain.putExtra("answer", "List<T> Name = new List<T>");
                 startActivity(intentMain);
             }
         });
@@ -48,7 +48,7 @@ public class IT_activity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intentMain = new Intent (getApplicationContext(), QnA_activity.class);
                 intentMain.putExtra("question", "How do you print a line to the Console?");
-                intentMain.putExtra("answer", "Set X with value from Y.");
+                intentMain.putExtra("answer", "Console.writeLine(String)");
                 startActivity(intentMain);
             }
         });

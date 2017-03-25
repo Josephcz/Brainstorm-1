@@ -21,8 +21,8 @@ public class Math_Activity extends AppCompatActivity {
         ButtonQ1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intentMain = new Intent (getApplicationContext(), QnA_activity.class);
-                intentMain.putExtra("question", "What will this code do? (this.x = y)");
-                intentMain.putExtra("answer", "Set X with value from Y.");
+                intentMain.putExtra("question", "How much is the sin of 180°?");
+                intentMain.putExtra("answer", "Śin of 180° is 0.");
                 startActivity(intentMain);
             }
         });
@@ -30,8 +30,8 @@ public class Math_Activity extends AppCompatActivity {
         ButtonQ2.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intentMain = new Intent (getApplicationContext(), QnA_activity.class);
-                intentMain.putExtra("question", "How do you initialize a list in C#?");
-                intentMain.putExtra("answer", "Set X with value from Y.");
+                intentMain.putExtra("question", "How much is pi?");
+                intentMain.putExtra("answer", "3.14159265");
                 startActivity(intentMain);
             }
         });
@@ -39,8 +39,8 @@ public class Math_Activity extends AppCompatActivity {
         ButtonQ3.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intentMain = new Intent (getApplicationContext(), QnA_activity.class);
-                intentMain.putExtra("question", "How do you print a line to the Console?");
-                intentMain.putExtra("answer", "Set X with value from Y.");
+                intentMain.putExtra("question", "How does the triangle's area formula sound like?");
+                intentMain.putExtra("answer", "A=b*a/2");
                 startActivity(intentMain);
             }
         });

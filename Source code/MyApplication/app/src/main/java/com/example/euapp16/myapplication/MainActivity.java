@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
                                            public void onClick(View v) {
                                                String n = editTextName.getText().toString();
                                                String ph = editTextPasswd.getText().toString();
-                                               String x = "admin";
+                                               String x = "root";
                                                if (n.equals(x) && ph.equals(x)) {
                                                    intentSecond = new Intent (getApplicationContext(), Subject_activity.class);
                                                    startActivity(intentSecond);

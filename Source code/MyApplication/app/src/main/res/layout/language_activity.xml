@@ -27,7 +27,7 @@
         android:layout_alignRight="@+id/button_Q2"
         android:layout_below="@+id/button_Q3"
         android:layout_marginTop="24dp"
-        android:text="Question 1" />
+        android:text="How is the passive form for the past simple?" />
 
     <Button
         android:id="@+id/button_Q2"
@@ -35,7 +35,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/button_Q1"
         android:layout_marginTop="24dp"
-        android:text="Question 2" />
+        android:text="How would you say good night in Italian?" />
 
     <Button
         android:id="@+id/button_Q3"
@@ -45,6 +45,6 @@
         android:layout_alignParentTop="true"
         android:layout_alignRight="@+id/button_Q1"
         android:layout_marginTop="24dp"
-        android:text="Question 3" />
+        android:text="How would you say i love you in German?" />
 
 </LinearLayout>

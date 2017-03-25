@@ -43,7 +43,7 @@ public class QnA_activity extends AppCompatActivity {
         reply = (Button) findViewById(R.id.button_Reply);
         reply.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "Feature TBD. ETA: November 2k17", Toast.LENGTH_SHORT).show();;
+                Toast.makeText(getApplicationContext(), "Feature TBD. ETA: November 2k17", Toast.LENGTH_SHORT).show();
             }
         });
 

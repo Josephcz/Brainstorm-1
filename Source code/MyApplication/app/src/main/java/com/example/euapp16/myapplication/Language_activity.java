@@ -29,8 +29,8 @@ public class Language_activity extends AppCompatActivity {
         ButtonQ1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intentMain = new Intent (getApplicationContext(), QnA_activity.class);
-                intentMain.putExtra("question", "What will this code do? (this.x = y)");
-                intentMain.putExtra("answer", "Set X with value from Y.");
+                intentMain.putExtra("question", "How is the passive form for the past simple?");
+                intentMain.putExtra("answer", "Was/were + past Particle.");
                 startActivity(intentMain);
             }
         });
@@ -38,8 +38,8 @@ public class Language_activity extends AppCompatActivity {
         ButtonQ2.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intentMain = new Intent (getApplicationContext(), QnA_activity.class);
-                intentMain.putExtra("question", "How do you initialize a list in C#?");
-                intentMain.putExtra("answer", "Set X with value from Y.");
+                intentMain.putExtra("question", "How would you say\"good night\" in Italian?");
+                intentMain.putExtra("answer", "Buonanotte.");
                 startActivity(intentMain);
             }
         });
@@ -47,8 +47,8 @@ public class Language_activity extends AppCompatActivity {
         ButtonQ3.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intentMain = new Intent (getApplicationContext(), QnA_activity.class);
-                intentMain.putExtra("question", "How do you print a line to the Console?");
-                intentMain.putExtra("answer", "Set X with value from Y.");
+                intentMain.putExtra("question", "How would you say \"i love you\" in German?");
+                intentMain.putExtra("answer", "Ich liebe dich.");
                 startActivity(intentMain);
             }
         });
