@@ -15,7 +15,8 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="13dp"
-        android:layout_marginStart="13dp"
+        android:layout_marginRight="13dp"
+
         android:layout_marginTop="13dp"
         android:text="IT" />
 
@@ -25,10 +26,10 @@
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/button_IT"
         android:layout_marginLeft="13dp"
-        android:layout_marginStart="13dp"
         android:layout_marginTop="13dp"
         android:layout_toEndOf="@+id/button_IT"
         android:layout_toRightOf="@+id/button_IT"
+        android:layout_marginRight="13dp"
         android:text="Math" />
 
     <Button
@@ -36,9 +37,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="13dp"
-        android:layout_marginStart="13dp"
+
         android:layout_marginTop="13dp"
         android:id="@+id/button_Language"
+        android:layout_marginRight="13dp"
         android:layout_below="@+id/button_IT"
         android:layout_alignLeft="@+id/button_IT"
         android:layout_alignStart="@+id/button_IT" />
@@ -48,7 +50,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="13dp"
-        android:layout_marginStart="13dp"
         android:layout_marginTop="13dp"
         android:layout_alignParentBottom="true"
         android:layout_toRightOf="@+id/button_Q1"

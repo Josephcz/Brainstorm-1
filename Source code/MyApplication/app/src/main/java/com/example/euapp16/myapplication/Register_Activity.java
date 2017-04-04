@@ -17,19 +17,22 @@ public class Register_Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.register_activity);
 
-        final Button buttonBack = (Button) findViewById(R.id.buttonBack);
-        final Button buttonRegister = (Button) findViewById(R.id.buttonRegister);
+        /** Finds all required objects in the current View **/
+        buttonBack = (Button) findViewById(R.id.buttonBack);
+        buttonRegister = (Button) findViewById(R.id.buttonRegister);
 
+        /** Return to previous activity **/
         buttonBack.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 finish();
             }
         });
+
+        /* Temporary - replace with database registration code */
         buttonRegister.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Toast.makeText(getApplicationContext(), "Feature TBD. ETA: November 2k17", Toast.LENGTH_SHORT).show();
             }
         });
-
     }
 }
